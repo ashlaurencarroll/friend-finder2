@@ -24,8 +24,8 @@ app.use(express.json());
 //require("/Users/mr.boi/Documents/Homework/friend-finder/data/apiRoutes")(app);
 //require("/Users/mr.boi/Documents/Homework/friend-finder/data/htmlRoutes")(app);
 
-require("/Users/mr.boi/Documents/Homework/friend-finder/data/apiRoutes")(app);
-require("/Users/mr.boi/Documents/Homework/friend-finder/data/htmlRoutes")(app);
+require("./data/apiRoutes")(app);
+require("./data/htmlRoutes")(app);
 
 
 // =============================================================================
